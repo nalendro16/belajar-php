@@ -1,0 +1,29 @@
+<?php
+// array
+// variable tang dapat memiliki banyak nilai
+// array adalah pasangan antara key dan value
+// array numeric key dimulai dari 0 
+
+// membuat array
+// nilai yg didalam array diberi nama element
+$hari = ["senin", "selasa", "rabu"];
+$bulan = ["Januari", "Februari", "Maret"];
+$arr1 = [1, "Jumat", false]; //element pada array dapat memilikitipe data yang berbeda
+
+// cara menampilkan array
+// var_dump() atau print_r
+// var_dump($arr1);
+// echo "<br>";
+// print_r($bulan);
+// echo "<br>";
+
+// menampilkan 1 element pada array
+// echo $arr1[1];
+// echo "<br>";
+// echo $bulan[1];
+
+// menambahkan element baru pada array
+var_dump($hari);
+$hari[] = "kamis";
+echo "<br>";
+var_dump($hari);
